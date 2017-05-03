@@ -1,12 +1,10 @@
 package com.StudyBuddy.Domain;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 @Entity
+@Table(name="FEEDBACK")
 public class Feedback implements Serializable{
 
     @Id
@@ -30,6 +28,14 @@ public class Feedback implements Serializable{
 
     @Column
     private String assignmentType;
+
+    public Person getPerson() {
+        return person;
+    }
+
+    @ManyToOne
+    @JoinColumn(name="person_id")
+    private Person person;
 
     public Feedback(String personalFeedback, Integer studentId, Integer grade, java.lang.String moduleCode, java.lang.String assignmentCode, java.lang.String assignmentType) {
         this.personalFeedback = personalFeedback;
