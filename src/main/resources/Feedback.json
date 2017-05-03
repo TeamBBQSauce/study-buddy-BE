@@ -1,0 +1,58 @@
+[
+  {
+    "studentNo": 3418670,
+    "moduleCode":"RE",
+    "assignmentCode":"RE:2",
+    "assignmentType": "Reflective Essay",
+    "grade": 68,
+    "feedbackPersonal": "Overall a good analysis of the literature presented"
+  },
+  {
+    "studentNo": 3418670,
+    "moduleCode":"RE",
+    "assignmentCode":"RE:3",
+    "assignmentType": "Presentation",
+    "grade": 72,
+    "feedbackPersonal": "Well structured and engaging. Well done!"
+  },
+  {
+    "studentNo": 3418671,
+    "moduleCode": "RE",
+    "assignmentCode":"RE:2",
+    "assignmentType": "Reflective Essay",
+    "grade": 50,
+    "feedbackPersonal": "Poor effort: work harder!"
+  },
+  {
+    "studentNo": 3418671,
+    "moduleCode": "RE",
+    "assignmentCode":"RE:3",
+    "assignmentType": "Presentation",
+    "grade": 60,
+    "feedbackPersonal": "Evidence of background reading. More analysis required"
+  },
+  {
+    "studentNo": 3418672,
+    "moduleCode": "SC",
+    "assignmentCode":"SC:1",
+    "assignmentType": "Reflective Essay",
+    "grade": 72,
+    "feedbackPersonal": "Congratulations! Excellent evaluation of recent literature"
+  },
+  {
+    "studentNo": 3418673,
+    "moduleCode": "SC",
+    "assignmentCode":"SC:1",
+    "assignmentType": "Reflective Essay",
+    "grade": 65,
+    "feedbackPersonal": "Overall a good analysis of the literature presented"
+  },
+  {
+    "studentNo": 3418674,
+    "moduleCode": "RE",
+    "assignmentCode":"RE:2:1",
+    "assignmentType": "Reflective Essay",
+    "grade": 61,
+    "feedbackPersonal": "Overall a good analysis of the literature presented"
+  }
+]
