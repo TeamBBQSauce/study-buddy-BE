@@ -1,1 +1,10 @@
 version: 2
+
+jobs:
+  build:
+    working_directory: ~/circulate
+    docker:
+      - image: openjdk:7
+    steps:
+      - checkout
+      - run: echo "Juan Carlos"
