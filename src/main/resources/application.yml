@@ -19,7 +19,7 @@ datasource:
 ---
 
 spring:
- profiles: circleCI
+ profiles: testing
  jpa:
    hibernate:
      ddlAuto: validate
