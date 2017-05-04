@@ -1,5 +1,5 @@
 spring:
- profiles.active: development
+ profiles.active: circleCI
 
 ---
 spring:
@@ -19,17 +19,14 @@ datasource:
 ---
 
 spring:
- profiles: test
+ profiles: circleCI
  jpa:
    hibernate:
      ddlAuto: validate
      namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
    show-sql: false
-datasource:
- StudyBuddydb:
-     url: jdbc:postgresql://localhost:5432/StudyBuddydb
-     username: postgres
-     password: postgres
+
+
 
 ---
 
