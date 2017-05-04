@@ -1,0 +1,44 @@
+spring:
+ profiles.active: development
+
+---
+spring:
+ profiles: development
+ jpa:
+     hibernate:
+       ddlAuto: create-drop
+#        use the EJB3NamingStrategy, which doesn't convert camelCase to snake_case, but keeps it as it is
+       namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
+     show-sql: false
+datasource:
+ StudyBuddydb:
+     url: jdbc:postgresql://localhost:5432/StudyBuddydb
+     username: postgres
+     password: postgres
+
+---
+
+spring:
+ profiles: test
+ jpa:
+   hibernate:
+     ddlAuto: validate
+     namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
+   show-sql: false
+datasource:
+ StudyBuddydb:
+     url: jdbc:postgresql://localhost:5432/StudyBuddydb
+     username: postgres
+     password: postgres
+
+---
+
+spring:
+ profiles: production
+datasource:
+ StudyBuddydb:
+      url: jdbc:postgresql://localhost:5432/StudyBuddydb
+      username: postgres
+      password: postgres
+
+---
