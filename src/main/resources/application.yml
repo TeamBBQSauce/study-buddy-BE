@@ -26,8 +26,8 @@ spring:
      namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
    show-sql: false
 datasource:
- StudyBuddydb:
-     url: jdbc:postgres://wfruzffpoteugr:5ed4d41bd566adcbcc0bab767a45e9bfc9f9d6447bef0b5a59da25d008845530@ec2-54-235-120-39.compute-1.amazonaws.com:5432/d5aug8a8mir0gb
+ d5aug8a8mir0gb:
+     url: jdbc:postgres://ec2-54-235-120-39.compute-1.amazonaws.com:5432/d5aug8a8mir0gb
      username: wfruzffpoteugr
      password: 5ed4d41bd566adcbcc0bab767a45e9bfc9f9d6447bef0b5a59da25d008845530
 
