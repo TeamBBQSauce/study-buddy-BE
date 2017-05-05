@@ -26,10 +26,13 @@ spring:
      namingStrategy: org.hibernate.cfg.EJB3NamingStrategy
    show-sql: false
 datasource:
- d5aug8a8mir0gb:
-     url: jdbc:postgres://ec2-54-235-120-39.compute-1.amazonaws.com:5432/d5aug8a8mir0gb
-     username: wfruzffpoteugr
-     password: 5ed4d41bd566adcbcc0bab767a45e9bfc9f9d6447bef0b5a59da25d008845530
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+# d5aug8a8mir0gb:
+#     url: jdbc:postgres://ec2-54-235-120-39.compute-1.amazonaws.com:5432/d5aug8a8mir0gb
+#     username: wfruzffpoteugr
+#     password: 5ed4d41bd566adcbcc0bab767a45e9bfc9f9d6447bef0b5a59da25d008845530
 
 
 
