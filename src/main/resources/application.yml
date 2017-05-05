@@ -1,4 +1,8 @@
 spring:
+ profiles.active: heroku
+
+---
+spring:
  profiles: development
  jpa:
      hibernate:
