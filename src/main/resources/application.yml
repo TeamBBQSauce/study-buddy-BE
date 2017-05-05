@@ -1,8 +1,4 @@
 spring:
- profiles.active: {$APP_ENV}
-
----
-spring:
  profiles: development
  jpa:
      hibernate:
